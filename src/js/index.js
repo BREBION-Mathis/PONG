@@ -11,7 +11,7 @@ function edgeBallPlayer () {
         ball.vx *= -1.05;
         touchP = true;
         touchIA = false;
-        sound = true;
+        Audioplay ();
     }
 }
 
@@ -19,7 +19,7 @@ function edgeBallPlayer2 () {
     if ( touchP && ball.x + ball.r >= player2.x && ball.x <= player2.x + player2.w && ( ball.x + ball.r ) >= player2.x && ball.y + ball.r >= ( player2.y ) && ball.y <= (player.y + player.h) ) {
         ball.vy *= -Math.PI / 3;
         touchP = false;
-        sound = true;
+        Audioplay ();
     }
 }
 
@@ -28,7 +28,7 @@ function edgeBallIA () {
         ball.vx *= -1.05;
         touchIA = true;
         touchP = false;
-        sound = true;
+        Audioplay ();
     }
 }
 
@@ -36,7 +36,7 @@ function edgeBallIA2 () {
     if ( touchIA && ball.x < IA2.x + IA2.w && ball.x + ball.r > IA2.x && ball.x < ( IA2.x + IA2.w) && ball.y <= IA2.y + IA2.h && ball.y + ball.r > IA2.y ) {
         ball.vy *= -Math.PI / 3;
         touchIA = false;
-        sound = true;
+        Audioplay ();
     }
 }
 

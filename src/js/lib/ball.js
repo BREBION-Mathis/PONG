@@ -17,7 +17,7 @@ class Ball {
     }
     
     edge () {
-        if ( this.x > canvas.width - this.r ) {
+        if ( this.x > canvas.width + this.r ) {
             
             this.vx = -1;
             this.vy = 1;
@@ -31,8 +31,10 @@ class Ball {
             fScore ( "1" );
         }
         
-        if ( this.y > canvas.height - this.r )
+        if ( this.y > canvas.height - this.r ) {
+            Audioplay ();
             this.vy *= -1;
+        }
         
         if ( this.x < 0 ) {
             
@@ -48,8 +50,10 @@ class Ball {
             fScore ( "2" );
         }
 
-        if ( this.y < 0 )
+        if ( this.y < 0 ) {
+            Audioplay ();
             this.vy *= -1;
+        }
     }
 
     show () {
