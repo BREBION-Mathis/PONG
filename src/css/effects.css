@@ -1,0 +1,47 @@
+.welcome {
+    width: 75%;
+    height: 25%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+
+.welcome > i {
+    font-size: 40px;
+    user-select: none;
+    color: rgb(245, 241, 22);
+    text-shadow: 6px 6px black;
+}
+
+.welcome > h1 {
+    text-align: center;
+    position: relative;
+    user-select: none;
+    top: 50%;
+    text-shadow: 6px 6px black;
+    transform: perspective( 1px ) translateY( -50% );
+    padding: 5px;
+    font-size: 140px;
+    font-family: "Gluten", sans-serif;
+    color: #2FF16B;
+}
+
+.buttonPlay {
+    text-decoration: none;
+    font-family: 'Gluten', serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    border: 2px solid black;
+    border-radius: 30px;
+    top: 75%;
+    width: 30%;
+    height: 90px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    transform: scale(0);
+}

@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@600&display=swap');
+
+
+* {
+    outline: none;
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    background-color: #7CFC00;
+    border: 1px solid black;
+    width: 75%;
+    height: 60%;
+    display: none;
+    margin: 5% auto;
+}
+
+.scoreboard  {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    display: none;
+}
+
+.scoreboard > h1 {
+    padding: 0 140px 0 140px;
+    display: inline-block;
+}

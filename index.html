@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PONG</title>
+
+        <link rel="stylesheet" href="src/css/index.css">
+        <link rel="stylesheet" href="src/css/effects.css">
+        <link rel="stylesheet" href="src/css/play.css">
+        <link rel="stylesheet" href="src/css/results.css">
+
+        <script src="plugins/jQuery.js"></script>
+        <script src="https://kit.fontawesome.com/4fda7176b6.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+
+        <div class="welcome">
+            <i class="fas fa-star"></i>
+            <h1 class="welcomeSentence"><i><u>Bienvenue sur PONG !</u></i></h1>
+            <button type="button" onclick="play ();" class="buttonPlay">Jouer</button>
+        </div>
+
+        <div class="play"><h1 id="count">3</h1></div>
+
+        <div class="scoreboard">
+            <h1 id="score1">0</h1>
+            <h1 id="score2">0</h1>
+        </div>
+        <canvas></canvas>
+
+        <div class="result">
+            <h1></h1>
+        </div>
+
+        <script src="src/js/declar.js"></script>
+        <script src="src/js/effects.js"></script>
+        <script src="src/js/buttonPlay.js"></script>
+        <script src="src/js/lib/player.js"></script>
+        <script src="src/js/lib/bg.js"></script>
+        <script src="src/js/scoreboard.js"></script>
+        <script src="src/js/lib/ball.js"></script>
+        <script src="src/js/index.js"></script>
+    </body>
+</html>
+
