@@ -9,3 +9,6 @@ touchIA = false,
 IALVL = 0.80;
 
 let count = 3, timer, score1 = 0, score2 = 0;
+
+const soundBall = new Audio ();
+soundBall.src = "./src/sounds/ballSound.mp3";
