@@ -72,26 +72,6 @@ function render () {
     if ( ball.touch ) {
         IA.y = ball.y;
         ball.touch = false;
-
-        if ( score1 == 10 ) {
-            score1 = 0;
-            score2 = 0;
-
-            resulth1.innerHTML = "Vous avez gagné !!!";
-            $ ( ".results" ).css ( "display", "block" );
-            $ ( ".resulth1" ).css ( 'display', 'block' );
-            $ ( ".buttonReplay" ).css ( "display", "block" );
-            return;
-        } else if ( score2 == 10 ) {
-            score1 = 0;
-            score2 = 0;
-
-            resulth1.innerHTML = "Vous avez perdu !!!";
-            $ ( ".results" ).css ( "display", "block" );
-            $ ( ".resulth1" ).css ( 'display', 'block' );
-            $ ( ".buttonReplay" ).css ( "display", "block" );
-            return;
-        }
     }
 
     IA.y += ball.vy * IALVL;
