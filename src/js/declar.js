@@ -12,3 +12,5 @@ let count = 3, timer, score1 = 0, score2 = 0;
 
 const soundBall = new Audio ();
 soundBall.src = "./src/sounds/ballSound.mp3";
+
+const resulth1 = document.getElementById ( "resulth1" );
