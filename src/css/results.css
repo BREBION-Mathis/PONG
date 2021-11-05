@@ -4,6 +4,7 @@
     opacity: 0.3;
     background-color: black;
     position: fixed;
+    display: none;
 }
 
 .resulth1 {
@@ -16,6 +17,7 @@
     right: 0;
     left: 0;
     position: absolute;
+    display: none;
 }
 
 .buttonReplay {
@@ -29,7 +31,7 @@
     width: 30%;
     height: 90px;
     cursor: pointer;
-    display: block;
+    display: none;
     margin: -8% auto;
     position: absolute;
     left: 0;
