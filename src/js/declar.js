@@ -6,7 +6,7 @@ score2P = document.getElementById ( "score2" );
 
 let touchP = false,
 touchIA = false,
-IALVL = 0.75;
+IALVL = 0.82;
 
 let count = 3, timer, score1 = 0, score2 = 0;
 
