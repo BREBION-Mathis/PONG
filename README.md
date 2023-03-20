@@ -2,5 +2,7 @@
 
 > Réalisation du jeu PONG par BREBION Mathis
 
+***********************************************************************************************************
+
 **Technologies utilisées**
 HTML5, CSS3, JavaScript, jQuery
